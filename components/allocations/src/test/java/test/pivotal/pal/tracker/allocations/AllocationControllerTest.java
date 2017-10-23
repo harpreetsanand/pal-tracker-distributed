@@ -18,7 +18,7 @@ import static org.mockito.Mockito.*;
 import static test.pivotal.pal.tracker.allocations.TestBuilders.*;
 
 
-public class AllocationControllerTest {
+public class    AllocationControllerTest {
 
     private AllocationDataGateway allocationDataGateway = mock(AllocationDataGateway.class);
     private ProjectClient client = mock(ProjectClient.class);

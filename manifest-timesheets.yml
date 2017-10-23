@@ -4,7 +4,5 @@ applications:
   host: ha-timesheets-pal
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: https://ha-registration-pal.apps.longs.pal.pivotal.io
   services:
   - tracker-timesheets-database
